@@ -31,7 +31,13 @@
 .profile-picture-tooltip-video3 img,
 .profile-picture-tooltip-video4 img,
 .profile-picture-tooltip-video5 img,
-.profile-picture-tooltip-video6 img{
+.profile-picture-tooltip-video6 img,
+.profile-picture-tooltip-video7 img,
+.profile-picture-tooltip-video8 img,
+.profile-picture-tooltip-video9 img,
+.profile-picture-tooltip-video10 img,
+.profile-picture-tooltip-video11 img,
+.profile-picture-tooltip-video12 img{
     width:55px;
     border-radius: 50px;
 }
@@ -51,7 +57,13 @@
 .profile-picture-container-video3,
 .profile-picture-container-video4,
 .profile-picture-container-video5,
-.profile-picture-container-video6{
+.profile-picture-container-video6,
+.profile-picture-container-video7,
+.profile-picture-container-video8,
+.profile-picture-container-video9,
+.profile-picture-container-video10,
+.profile-picture-container-video11,
+.profile-picture-container-video12{
     position: relative;
 }
 .profile-picture-tooltip-video1,
@@ -59,7 +71,13 @@
 .profile-picture-tooltip-video3,
 .profile-picture-tooltip-video4,
 .profile-picture-tooltip-video5,
-.profile-picture-tooltip-video6{
+.profile-picture-tooltip-video6,
+.profile-picture-tooltip-video7,
+.profile-picture-tooltip-video8,
+.profile-picture-tooltip-video9,
+.profile-picture-tooltip-video10,
+.profile-picture-tooltip-video11,
+.profile-picture-tooltip-video12{
     width: 230px;
     position: absolute;
     display:grid;
@@ -83,7 +101,13 @@
 .profile-picture-container-video3:hover .profile-picture-tooltip-video3,
 .profile-picture-container-video4:hover .profile-picture-tooltip-video4,
 .profile-picture-container-video5:hover .profile-picture-tooltip-video5,
-.profile-picture-container-video6:hover .profile-picture-tooltip-video6{
+.profile-picture-container-video6:hover .profile-picture-tooltip-video6,
+.profile-picture-container-video7:hover .profile-picture-tooltip-video7,
+.profile-picture-container-video8:hover .profile-picture-tooltip-video8,
+.profile-picture-container-video9:hover .profile-picture-tooltip-video9,
+.profile-picture-container-video10:hover .profile-picture-tooltip-video10,
+.profile-picture-container-video11:hover .profile-picture-tooltip-video11,
+.profile-picture-container-video12:hover .profile-picture-tooltip-video12{
     opacity: 1;
 }
 
