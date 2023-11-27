@@ -28,6 +28,69 @@ body{
     width: 36px;
     border-radius: 50px;
 }
+.profile-picture-tooltip-video1 img,
+.profile-picture-tooltip-video2 img,
+.profile-picture-tooltip-video3 img,
+.profile-picture-tooltip-video4 img,
+.profile-picture-tooltip-video5 img,
+.profile-picture-tooltip-video6 img{
+    width:55px;
+    border-radius: 50px;
+}
+.channel-info-tooltip-author{
+    font-size: 18px;
+    font-family: Roboto, Arial;
+    font-weight:700;
+    margin-top: 5px;
+}
+.channel-info-tooltip-subcount{
+    font-size: 16px;
+    font-family: Roboto, Arial;
+    color: rgb(96, 96, 96);
+    margin-top: 3px;
+    
+}
+.profile-picture-container-video1,
+.profile-picture-container-video2,
+.profile-picture-container-video3,
+.profile-picture-container-video4,
+.profile-picture-container-video5,
+.profile-picture-container-video6{
+    position: relative;
+}
+.profile-picture-tooltip-video1,
+.profile-picture-tooltip-video2,
+.profile-picture-tooltip-video3,
+.profile-picture-tooltip-video4,
+.profile-picture-tooltip-video5,
+.profile-picture-tooltip-video6{
+    width: 230px;
+    position: absolute;
+    display:grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 5px;
+    background-color: white;
+    border-radius: 7px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 2px 3px 10px 0.5px rgb(153, 151, 151);
+    opacity:0;
+    transition: opacity 0.5s;
+    z-index: 100;
+    
+    
+}
+.profile-picture-container-video1:hover .profile-picture-tooltip-video1,
+.profile-picture-container-video2:hover .profile-picture-tooltip-video2,
+.profile-picture-container-video3:hover .profile-picture-tooltip-video3,
+.profile-picture-container-video4:hover .profile-picture-tooltip-video4,
+.profile-picture-container-video5:hover .profile-picture-tooltip-video5,
+.profile-picture-container-video6:hover .profile-picture-tooltip-video6{
+    opacity: 1;
+}
+
 .thumbnail-row{
     margin-bottom: 8px;
     position: relative;
